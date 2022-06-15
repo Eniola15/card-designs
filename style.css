@@ -1,0 +1,96 @@
+body {
+    width: 70vw;
+    height: 100vh;
+    margin: 100px;
+    padding: 100px;
+    border: 2px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+}
+
+
+.one {
+display: grid;
+grid-template-areas: 
+'a b c'
+'a b c'
+'a b c'
+;
+column-gap: 20px;
+margin: 0px;
+text-align: left;
+}
+
+.two {
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+}
+
+.three {
+    background-color: hsl(184 100% 22%);
+}
+
+.four {
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+.sedans {
+    color: white;
+    margin: 30px 20px 0px 20px;
+    padding: 1em;
+    font-family: 'Big Sholders Display', cursive;
+
+
+}
+
+.suvs {
+    color: white;
+    margin: 30px 20px 0px 20px;
+    padding: 1em;
+    font-family: 'Big Sholders Display', cursive;
+
+}
+.luxury {
+    color: white;
+    margin: 30px 20px 0px 20px;
+    padding: 1em;
+    font-family: 'Big Sholders Display', cursive;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    margin: 0px 20px 0px 35px;
+    padding: 1em;
+    word-spacing: 3px;
+}
+
+.btn {
+    border-radius: 70px;
+    margin: 100px 100px 60px 40px;
+    width: 35%;
+    padding: 14px;
+}
+
+.img {
+    margin: 50px 50px 0px 50px;
+
+}
+a:active {
+    color: transparent white;
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        width: 100%;
+    }
+	}
+
+ @media screen and (min-width: 375px) {
+    body {
+           width: 100%;
+    }
+    }
